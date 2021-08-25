@@ -1,37 +1,50 @@
 #body {
-  width: 100%;
-  height: 700px;
-  border: 3px solid red;
+  width: 600px;
+  height: 600px;
+  position: relative;
 }
 
 #game-display {
   width: 80%;
   height: 100%;
-  border: 3px solid orange;
   margin-left: 10%;
 }
 
 #game-board {
-  width: 90%;
-  height: 90%;
-  border: 3px solid yellow;
+  height: 100%;
+  float: top;
 }
 
 .row {
   width: 100%;
   height: 30%;
-  border: 3px solid green;
 }
 
 .cell {
   float: left;
-  width: 30%;
+  width: 33%;
   height: 100%;
-  border: 3px solid blue;
-  color: yellow;
+  color: blue;
   font-size: 30px;
+  background-color: gold;
+
 }
 
 .cell:hover {
-  background-color: purple;
+  background-color: green;
+  color: white;
+}
+
+#reset-button {
+  background-color: fuchsia;
+  width: 10%;
+  height:0%;
+}
+
+#GameOver {
+  width: 90%;
+  height: 100%;
+  background-color: red;
+  color: white;
+  display: none;
 }

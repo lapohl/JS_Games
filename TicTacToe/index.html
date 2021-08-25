@@ -6,21 +6,28 @@
   </head>
   <body id="body">
     <div id="game-display">
+      <div id="reset-button-wrapper">
+        <button id="reset-button" onClick="reset()">New Game</button>
+      </div>
       <div id="game-board">
+        <div id="gameover-wrapper">
+          <div id="GameOver">GAME OVER</div>
+          <div id="test"></div>
+        </div>
         <div id="row_1" class="row">
-          <button class="cell" id="A1" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="B1" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="C1" onClick="put_mark(this.id)"></button>
+          <button class="cell" id="A1" onClick="putMark(this.id)"></button>
+          <button class="cell" id="B1" onClick="putMark(this.id)"></button>
+          <button class="cell" id="C1" onClick="putMark(this.id)"></button>
         </div>
         <div id="row_2" class="row">
-          <button class="cell" id="A2" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="B2" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="C2" onClick="put_mark(this.id)"></button>
+          <button class="cell" id="A2" onClick="putMark(this.id)"></button>
+          <button class="cell" id="B2" onClick="putMark(this.id)"></button>
+          <button class="cell" id="C2" onClick="putMark(this.id)"></button>
         </div>
         <div id="row_3" class="row">
-          <button class="cell" id="A3" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="B3" onClick="put_mark(this.id)"></button>
-          <button class="cell" id="C3" onClick="put_mark(this.id)"></button>
+          <button class="cell" id="A3" onClick="putMark(this.id)"></button>
+          <button class="cell" id="B3" onClick="putMark(this.id)"></button>
+          <button class="cell" id="C3" onClick="putMark(this.id)"></button>
         </div>
       </div>
     </div>
