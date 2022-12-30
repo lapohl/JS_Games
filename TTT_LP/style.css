@@ -1,0 +1,68 @@
+#body {
+  width: 800px;
+  height: 500px;
+  position: relative;
+  font-family: 'Hubballi', cursive;
+}
+
+#game-display {
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  margin-top:10%;
+
+}
+
+#game-board {
+  height: 100%;
+  float: top;
+  display: none;
+}
+
+.row {
+  width: 100%;
+  height: 30%;
+  back
+}
+
+.cell {
+  float: left;
+  width: 33%;
+  height: 100%;
+  color: blue;
+  font-size: 30px;
+  background-color: gold;
+
+}
+
+.cell:hover {
+  background-color: green;
+  color: white;
+}
+
+#reset-button {
+  background-color: fuchsia;
+  width: 10%;
+  height:0%;
+}
+
+#GameOver {
+  width: 90%;
+  height: 100%;
+  background-color: red;
+  color: white;
+  display: none;
+}
+
+#heading
+{
+  margin-left: 10%;
+  margin-top: 25%;
+  font-size: 2rem;
+  width: 100%;
+}
+
+#play-button
+{
+  margin-left: 30%;
+}
